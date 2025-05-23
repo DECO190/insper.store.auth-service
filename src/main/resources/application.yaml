@@ -9,4 +9,4 @@ spring:
 store:
   jwt:
     issuer: Insper
-    secretKey: ${JWT_SECRET_KEY:yrBBgYlvJQeslzFlgX9MFZccToI2fjRFqualquercoisa}
+    Key: ${JWT_SECRET_KEY:yrBBgYlvJQeslzFlgX9MFZccToI2fjRFqualquercoisa}
