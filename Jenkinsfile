@@ -1,13 +1,13 @@
 pipeline {
     agent any
     environment {
-        SERVICE = 'auth-service'
+        SERVICE = 'auth'
         NAME = "deco1903/${env.SERVICE}"
     }
     stages {
         stage('Dependecies') {
             steps {
-                build job: 'auth-service', wait: true
+                build job: 'auth', wait: true
             }
         }
         stage('Build') { 
